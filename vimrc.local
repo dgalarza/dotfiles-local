@@ -56,6 +56,8 @@ augroup END
 autocmd! VimResized
 autocmd VimResized * :wincmd =
 
-let b:ale_fixers = {'javascript': ['prettier', 'eslint']}
+let g:ale_linters = {'jsx': ['stylelint', 'eslint']}
+let g:ale_linter_aliases = {'jsx': 'css'}
+let b:ale_fixers = {'javascript': ['eslint']}
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
