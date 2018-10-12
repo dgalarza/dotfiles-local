@@ -1,0 +1,5 @@
+#! /bin/bash
+
+desktopsDirectory=$HOME/Pictures/Desktops
+randomWallpaper=$(ls $desktopsDirectory | gshuf | head -n 1)
+set-wallpaper $desktopsDirectory/$randomWallpaper
