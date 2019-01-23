@@ -225,4 +225,5 @@ ctrl + alt - d : chunkc tiling::desktop --layout float
 
 ctrl + alt - w : chunkc tiling::desktop --deserialize ~/.chunkwm_layouts/dev_1
 
-cmd + shift - r: sh $HOME/.chunkwmrc
+ctrl + cmd - w : $HOME/.bin/random-wallpaper;
+ctrl + cmd - r : sh $HOME/.chunkwmrc
