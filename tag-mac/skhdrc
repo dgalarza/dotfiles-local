@@ -146,6 +146,9 @@ shift + cmd - 4 : chunkc tiling::window --send-to-desktop 4; chunkc tiling::desk
 shift + cmd - 5 : chunkc tiling::window --send-to-desktop 5; chunkc tiling::desktop --focus 5
 shift + cmd - 6 : chunkc tiling::window --send-to-desktop 6; chunkc tiling::desktop --focus 6
 shift + cmd - 7 : chunkc tiling::window --send-to-desktop 7; chunkc tiling::desktop --focus 7
+shift + cmd - 8 : chunkc tiling::window --send-to-desktop 8; chunkc tiling::desktop --focus 8
+shift + cmd - 9 : chunkc tiling::window --send-to-desktop 9; chunkc tiling::desktop --focus 9
+shift + cmd - 0 : chunkc tiling::window --send-to-desktop 10; chunkc tiling::desktop --focus 10
 
 # focus monitor
 ctrl + alt - z  : chunkc tiling::monitor -f prev
@@ -193,10 +196,7 @@ alt - x : chunkc tiling::desktop --mirror horizontal
 alt - a : chunkc tiling::desktop --toggle offset
 
 # toggle window fullscreen
-alt - f : chunkc tiling::window --toggle fullscreen
-
-# toggle window native fullscreen
-shift + alt - f : chunkc tiling::window --toggle native-fullscreen
+shift + alt - f : chunkc tiling::window --toggle fullscreen
 
 # toggle window parent zoom
 alt - d : chunkc tiling::window --toggle parent
