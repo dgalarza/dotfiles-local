@@ -8,3 +8,8 @@ export PATH="/usr/local/bin:$PATH"
 . $HOME/.asdf/completions/asdf.bash
 
 export GOPATH=$HOME/go
+
+export ANDROID_SDK="/Users/dgalarza/Library/Android/sdk"
+export PATH="$ANDROID_SDK/platform-tools:$PATH"
+
+alias mvim=vim
