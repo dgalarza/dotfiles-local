@@ -11,7 +11,7 @@ set listchars=tab:▸\ ,eol:¬
 
 set t_Co=256
 set background=dark
-set colorcolumn=120
+set colorcolumn=80
 colorscheme nord
 
 " navigate tabs
