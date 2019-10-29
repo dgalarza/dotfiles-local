@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+git up
+branch=$(git current-branch)
+git checkout master
+git up
+git branch -d $branch
