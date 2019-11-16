@@ -60,5 +60,8 @@ let g:ale_linters = {'jsx': ['stylelint', 'eslint']}
 let g:ale_linter_aliases = {'jsx': 'css'}
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
+let g:airline#extensions#ale#enabled = 1
 
-nnoremap <leader>f :ALEFix prettier<CR>
+nnoremap <silent> <leader>f :ALEFindReferences<CR>
+
+nnoremap <silent> <Leader>d :ALEGoToDefinition<CR>
