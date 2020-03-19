@@ -63,5 +63,6 @@ let g:ale_completion_enabled = 1
 let g:airline#extensions#ale#enabled = 1
 
 nnoremap <silent> <leader>f :ALEFindReferences<CR>
-
 nnoremap <silent> <Leader>d :ALEGoToDefinition<CR>
+
+let test#javascript#jest#executable = 'yarn test'
