@@ -13,3 +13,5 @@ export ANDROID_SDK="/Users/dgalarza/Library/Android/sdk"
 export PATH="$ANDROID_SDK/platform-tools:$PATH"
 
 alias mvim=vim
+
+ulimit -n 1024
