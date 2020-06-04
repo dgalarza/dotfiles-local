@@ -15,3 +15,4 @@ alias mvim=vim
 ulimit -n 1024
 
 alias hc=hub compare
+export CODE=$HOME/Code
