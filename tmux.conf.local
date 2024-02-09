@@ -1,3 +1,4 @@
 # Rebind Splits
 unbind %
 bind | split-window -h
+set-option -sg escape-time 10

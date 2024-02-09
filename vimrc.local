@@ -7,7 +7,7 @@ nnoremap <leader>w <C-w>v<C-w>l
 set nowrap
 
 set list  " Shows invisible characters
-set listchars=tab:▸\ ,eol:¬
+" set listchars=tab:▸\ ,eol:¬
 
 set t_Co=256
 set background=dark
@@ -93,3 +93,11 @@ nmap <silent> ]g <Plug>(coc-diagnostic-next)
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 nmap <leader>do <Plug>(coc-codeaction)
+
+let g:graphql_javascript_tags = [
+  \ 'gql',
+  \ 'graphql',
+  \ 'Relay.QL',
+  \ 'buoyGql'
+\ ]
+let g:terraform_fmt_on_save=1

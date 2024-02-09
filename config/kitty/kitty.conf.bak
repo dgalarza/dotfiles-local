@@ -1,4 +1,7 @@
+include nightfox.conf
+
 macos_hide_titlebar no
+macos_titlebar_color #3B4252
 
 term xterm-kitty
 
@@ -16,8 +19,3 @@ map super+w close_window
 startup_session $HOME/.config/kitty/default.session
 
 select_by_word_characters @-./_~?&=%+#
-
-# BEGIN_KITTY_THEME
-# Nord
-include current-theme.conf
-# END_KITTY_THEME

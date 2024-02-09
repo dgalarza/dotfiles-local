@@ -1,18 +1,25 @@
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export PATH="./bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
-. $HOME/.asdf/asdf.sh
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
 
 export ANDROID_SDK="/Users/dgalarza/Library/Android/sdk"
 export PATH="$ANDROID_SDK/platform-tools:$PATH"
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 
 alias mvim=vim
+alias vim=nvim
 
 ulimit -n 1024
 
-alias hc=hub compare
 export CODE=$HOME/Code
+export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/postgresql@13/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/postgresql@13/include"
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES

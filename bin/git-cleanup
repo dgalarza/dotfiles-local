@@ -4,6 +4,6 @@ set -e
 
 git up
 branch=$(git current-branch)
-git checkout master
+git checkout main
 git up
 git branch -d $branch
