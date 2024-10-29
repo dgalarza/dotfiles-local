@@ -4,7 +4,7 @@ export PATH="./bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+. "$HOME/.asdf/asdf.sh"
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
